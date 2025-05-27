@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Тест на знание "Во все тяжкие"</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Рекламный баннер (прилипающий) -->
+    <div class="ad-banner" id="adBanner">
+        <span class="close-btn" id="closeAd">×</span>
+        <a href="https://example.com/fake-ad" target="_blank">
+            <img src="https://via.placeholder.com/728x90?text=Реклама+Во+все+тяжкие" alt="Реклама">
+        </a>
+    </div>
+
+    <header>
+        <h1>Тест на знание "Во все тяжкие"</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Главная</a></li>
+                <li><a href="quiz.html">Тест</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <div class="quiz-container">
+            <form id="quizForm">
+                <div class="question">
+                    <h3>1. Какое настоящее имя Гейзенберга?</h3>
+                    <label><input type="radio" name="q1" value="A"> Джесси Пинкман</label>
+                    <label><input type="radio" name="q1" value="B"> Уолтер Уайт</label>
+                    <label><input type="radio" name="q1" value="C"> Густаво Фринг</label>
+                </div>
+
+                <div class="question">
+                    <h3>2. Какой предмет преподавал Уолтер Уайт?</h3>
+                    <label><input type="radio" name="q2" value="A"> Физика</label>
+                    <label><input type="radio" name="q2" value="B"> Химия</label>
+                    <label><input type="radio" name="q2" value="C"> Математика</label>
+                </div>
+
+                <div class="question">
+                    <h3>3. Как зовут жену Уолтера?</h3>
+                    <label><input type="radio" name="q3" value="A"> Мари</label>
+                    <label><input type="radio" name="q3" value="B"> Скайлер</label>
+                    <label><input type="radio" name="q3" value="C"> Лидия</label>
+                </div>
+
+                <div class="question">
+                    <h3>4. Какой диагноз поставили Уолтеру в начале сериала?</h3>
+                    <label><input type="radio" name="q4" value="A"> Рак лёгких</label>
+                    <label><input type="radio" name="q4" value="B"> Диабет</label>
+                    <label><input type="radio" name="q4" value="C"> Болезнь сердца</label>
+                </div>
+
+                <div class="question">
+                    <h3>5. Какой псевдоним использовал Саул Гудман?</h3>
+                    <label><input type="radio" name="q5" value="A"> Джимми МакГилл</label>
+                    <label><input type="radio" name="q5" value="B"> Джин Такавич</label>
+                    <label><input type="radio" name="q5" value="C"> Виктор Сен-Клер</label>
+                </div>
+
+                <button type="button" id="submitQuiz">Проверить ответы</button>
+            </form>
+
+            <div id="quizResult" class="hidden">
+                <h2>Ваш результат: <span id="score">0</span>/5</h2>
+                <p id="resultText"></p>
+                <a href="index.html" class="back-btn">Вернуться на главную</a>
+            </div>
+        </div>
+    </main>
+
+    <footer>
+        <p>Фансайт сериала "Во все тяжкие" © 2023</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Во все тяжкие - Фансайт</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Рекламный баннер (прилипающий) -->
+    <div class="ad-banner" id="adBanner">
+        <span class="close-btn" id="closeAd">×</span>
+        <a href="https://example.com/fake-ad" target="_blank">
+            <img src="https://via.placeholder.com/728x90?text=Реклама+Во+все+тяжкие" alt="Реклама">
+        </a>
+    </div>
+
+    <header>
+        <h1>Во все тяжкие</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Главная</a></li>
+                <li><a href="quiz.html">Тест на знание сериала</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <!-- Персональный блок -->
+        <section class="personal">
+            <div class="photo-placeholder">
+                <!-- Место для вашего фото -->
+                <img src="assets/maxim_photo.jpg" alt="Максим Пахтусов" class="profile-photo">
+                <p class="upload-hint">(Загрузите ваше фото в файл maxim_photo.jpg в папку assets)</p>
+            </div>
+            <div class="personal-info">
+                <h2>О создателе сайта</h2>
+                <p>Я, <strong>Максим Пахтусов</strong>, нищий студент Политехнического института, электротехнического факультета, кафедры электропривода.</p>
+                <p>Родился в селе Троица, Белохолуницкого района, Кировской области. В детстве я очень мечтал стать бизнесменом и заработать очень много шекелей.</p>
+                <p>А потом... Я открыл для себя мир "Во все тяжкие" и понял, что химия может быть куда интереснее электротехники! Возможно, мне стоит переквалифицироваться в "Гейзенберги"?</p>
+            </div>
+        </section>
+
+        <section class="intro">
+            <h2>О сериале</h2>
+            <p>"Во все тяжкие" (Breaking Bad) - американская телевизионная драма, созданная Винсом Гиллиганом. Сериал рассказывает историю Уолтера Уайта, школьного учителя химии, который узнаёт, что болен раком лёгких. Чтобы обеспечить семью, он начинает производить и продавать метамфетамин.</p>
+        </section>
+
+        <!-- Остальной контент без изменений -->
+        <section class="video-section">
+            <h2>Трейлер сериала</h2>
+            <video controls width="100%">
+                <source src="assets/trailer.mp4" type="video/mp4">
+                Ваш браузер не поддерживает видео.
+            </video>
+        </section>
+
+        <!-- ... остальные секции ... -->
+    </main>
+
+    <footer>
+        <p>Фансайт сериала "Во все тяжкие" © 2023 | Создано Максимом Пахтусовым</p>
+    </footer>
+
+    <script src="script.js"></script>
+    <!-- Первый рекламный баннер -->
+    <div class="ad-banner" id="adBannerTop">
+        <span class="close-btn" id="closeAdTop">×</span>
+        <a href="https://example.com/fake-ad1" target="_blank">
+            <img src="https://i.imgur.com/JqYeZzn.jpg" alt="Реклама: Купите голубой мет!" class="ad-img">
+        </a>
+    </div>
+
+    <!-- Ваш контент (шапка, персональный блок и т.д.) -->
+
+    <!-- Второй рекламный баннер (после основного контента) -->
+    <div class="ad-banner bottom-ad" id="adBannerBottom">
+        <span class="close-btn" id="closeAdBottom">×</span>
+        <a href="https://example.com/fake-ad2" target="_blank">
+            <img src="https://i.imgur.com/JjKl9uE.jpg" alt="Реклама: Услуги Саула Гудмана" class="ad-img">
+        </a>
+    </div>
+
+    <script src="script.js"></script>
+<!-- Верхний баннер (ведёт на Википедию) -->
+<div class="ad-banner top-banner" id="wikiBanner">
+    <a href="https://ru.wikipedia.org/wiki/Во_все_тяжкие" target="_blank">
+        <img src="https://i.imgur.com/3Q7V5lD.png" alt="Узнайте больше на Википедии" class="ad-img">
+        <span class="banner-text">Breaking Bad Wiki →</span>
+    </a>
+</div>
+
+<!-- Нижний баннер (нерабочий крестик) -->
+<div class="ad-banner bottom-banner" id="fakeBanner">
+    <span class="fake-close-btn">×</span>
+    <img src="https://i.imgur.com/5qY9Q0R.png" alt="Реклама Los Pollos Hermanos" class="ad-img">
+    <span class="banner-text">Акция в Los Pollos Hermanos!</span>
+</div>
+</body>
+</html>
