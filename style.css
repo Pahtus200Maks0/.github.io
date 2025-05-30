@@ -373,14 +373,7 @@ body {
     }
 }
 /* Стили для нижнего баннера с крестиком */
-.bottom-banner {
-  width: 280px; /* Уменьшили ширину */
-  padding: 10px;
-  background: linear-gradient(135deg, #f8f8f8 0%, #fff 100%);
-  box-shadow: 0 3px 10px rgba(0,0,0,0.1);
-  bottom: 15px;
-  right: 15px;
-}
+
 
 .bottom-banner .ad-img {
   width: 50px; /* Увеличили место для картинки */
