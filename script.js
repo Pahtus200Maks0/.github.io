@@ -87,6 +87,5 @@ document.addEventListener('DOMContentLoaded', function() {
         // document.getElementById('adBannerBottom').style.display = 'none';
     });
 // Нижний баннер - крестик ничего не делает
-document.querySelector('.fake-close-btn').addEventListener('click', function(e) {
-    e.stopPropagation(); // Запрещаем любые действия
+
 });
